@@ -143,3 +143,23 @@ a {
     padding-left: 0;
   }
 }
+
+/* ICONS */
+.icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+.icon--primary {
+  fill: var(--primary-color);
+}
+
+.icon-container {
+  background: #f3f9fa;
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
