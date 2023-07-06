@@ -232,3 +232,23 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* INPUTS */
+.input {
+  border-radius: 3rem;
+  border: 1px solid #ccc;
+  color: var(--heading-color);
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+  color: #cbcbd7;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}
