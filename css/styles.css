@@ -225,10 +225,6 @@ a {
   color: #fff;
 }
 
-.btn-container {
-  width: 40rem;
-}
-
 @media screen and (min-width: 1024px) {
   .btn {
     font-size: 1.5rem;
@@ -252,7 +248,7 @@ a {
 .input-group {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
-  box-shadow: 0 0 10px 1px var(--border-color);
+  box-shadow: 0 0 10px 1px #f3f3f3;
   display: flex;
 }
 
@@ -270,4 +266,30 @@ a {
   .input {
     font-size: 1.5rem;
   }
+}
+
+/* CARDS */
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  overflow: hidden;
+}
+
+.card__header,
+.card__body {
+  padding: 2rem 3rem;
+}
+
+.card--primary .card__header {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.card--secondary .card__header {
+  background: var(--secondary-color);
+  color: #fff;
+}
+
+.card__body {
+  color: var(--heading-color);
 }
