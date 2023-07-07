@@ -271,8 +271,6 @@ a {
 
 /* CARDS */
 .card {
-  width: 40rem;
-  margin: 4rem;
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
@@ -334,6 +332,19 @@ a {
   letter-spacing: 0.1rem;
   font-weight: 500;
   margin-bottom: 2rem;
+}
+
+.plan--popular .card__header {
+  position: relative;
+}
+
+.plan--popular .card__header::before {
+  content: url(../images/popular.svg);
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  top: -6px;
+  right: 5%;
 }
 
 @media screen and (min-width: 1024px) {
